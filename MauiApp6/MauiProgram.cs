@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MauiApp6
+namespace ChatClientApp
 {
     public static class MauiProgram
     {
@@ -16,7 +16,7 @@ namespace MauiApp6
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

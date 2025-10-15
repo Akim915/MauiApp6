@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MauiApp6
 {
-    internal class ChatHistory
+    internal class ChatHistoryResponse
     {
 
     }

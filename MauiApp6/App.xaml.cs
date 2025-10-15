@@ -1,4 +1,4 @@
-﻿namespace MauiApp6
+﻿namespace ChatClientApp
 {
     public partial class App : Application
     {

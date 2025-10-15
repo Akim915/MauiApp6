@@ -59,7 +59,7 @@ namespace MauiApp6
                 {
                     Label messageLabel = new Label();
                     messageLabel.Text = message.Author + ": " + message.Content;
-                    ChatHistory.Children.Add(messageLabel);
+                    ChatHistoryResponse.Children.Add(messageLabel);
                 }
             }
             ChatScrollView.ScrollToAsync(ChatHistory, ScrollToPosition.End, true);           
