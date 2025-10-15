@@ -1,12 +1,2 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MauiApp6
-{
-    internal class GlobalXmlns
-    {
-    }
-}
+﻿[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "MauiApp6")]
+[assembly: XmlnsDefinition("http://schemas.microsoft.com/dotnet/maui/global", "MauiApp6.Pages")]

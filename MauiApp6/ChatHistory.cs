@@ -8,5 +8,6 @@ namespace MauiApp6
 {
     internal class ChatHistory
     {
+
     }
 }
